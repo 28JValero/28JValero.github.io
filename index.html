@@ -1,77 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <style>
-        #Heading {
-            color: purple;
-            background-color: rgb(100, 99, 99);
-            padding: 5px;
-        }
-
-        #Facts {
-            color: red;
-            background-color: black;
-            padding: 15px;
-            margin: 10px;
-
-        }
-
-        #hobbies {
-            color: aqua;
-            background-color: black;
-            padding: 15px;
-        }
-
-        #Information {
-            color: orange;
-            background-color: black;
-            padding: 15px;
-        }
-
-        #topics {
-            color: rgb(231, -22, 144);
-            background-color: white;
-            padding: 15px;
-        }
-    </style>
+    <title>Arise</title>
 </head>
-
+    <link id="style" rel="stylesheet" href="css/light.css">
+    <script src="js/scripts.js"></script>
 <body>
-    <h1 id="Heading">Josep Valeros personal life</h1>
-    <p> Me and my mom:</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMeUa8VjI3avtxT26RZHct8f6OhXelr7XVQA&s"
-        alt="Me and my mom">
-    <h2 id="topics">Facts about me:</h2>
-    <div>
-        <p id="Facts">My favorite color is purple</p>
-        <p id="Facts">I love soccer</p>
-        <p id="Facts"> My family is from Barcelona</p>
-        <p id="Facts"> My favorite soccer team is FC Barcelona</p>
-        <p>FC Barcelona:</p>
-        <img src="https://yt3.googleusercontent.com/obnnFvh_OSUvbvEiHR8bW1W5z7fxmGBh3AWWXCoeH_iyB7gVjqA20NK4f1RWZgGaFzva7M_Wb3Q=s900-c-k-c0x00ffffff-no-rj"
-            alt="FC Barcelona" width="300" height="300">
-        <h2 id="topics"> My favorite hobbies:</h2>
-        <p id="hobbies">I have played many sports such as, soccer, hockey, football, acting and modeling, swimming </p>
-        <p id="hobbies">I love playing video games such as, Valorant, League of Legends. Phasmophobia, Roblox, and
-            Rocket league</p>
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg?t=1727019976"
-            alt="Phasmophobia">
-        <p id="hobbies">I love spending time with my brothers Ian and Nicholas</p>
-    </div>
-    <div>
-        <h1 id="topics"> Information about me:</h1>
-        <p id="Information">Im 15 years old</p>
-        <p id="Information">I am 5'5</p>
-        <p id="Information">I can speak spanish</p>
-        <p> Spanish national flag:</p>
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png"
-            alt="spanish" width="450" height="300">
-        <p id="Information">I was born November 5th 2009</p>
+    <div id="toolbar">
+        <div id="buttons">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#" onclick="switchmode()">Mode</a>
+        </div>
+        <a href="#" onclick="showhide()">☰</a>
     </div>
 </body>
-
 </html>
